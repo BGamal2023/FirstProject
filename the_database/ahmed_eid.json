@@ -1,0 +1,7 @@
+{
+  "name": "ahmed_eid",
+  "job": "mechanical engineer",
+  "age": 33,
+  "IQ": 20,
+  "children": { "child_1": "not known yet", "child_2": "not known yet", "child_3": "not known yet" }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "sosan_malek",
+  "job": "lawyer",
+  "age": 35,
+  "IQ": 144,
+  "children": { "child_1": "amr", "child_2": "nabil", "child_3": "khadija" }
+}
