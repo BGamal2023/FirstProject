@@ -1,9 +1,9 @@
 {
   "type": "module",
-  "name": "training_project_for_bahaa",
+  "name": "first_git_project",
   "version": "1.0.0",
   "description": "",
-  "main": "./the_code_1(just_for_training)/0_main.js",
+  "main": "./0_main.js",
   "scripts": {
     "start": "node ./the_code/00_main_file.js",
     "test": "echo \"Error: no test specified\" && exit 1"
