@@ -34,7 +34,7 @@ export async function m_read_customer_data_from_databas() {
 //#region service functions
 
 function s0_get_database_folder_path() {
-  s_datbase_folder_path = path.join(the_Absolute_Path_Of_This_Folder, "../the_database");
+  s_datbase_folder_path = path.join(the_Absolute_Path_Of_This_Folder, "./the_database");
 }
 
 async function s1_get_path_of_every_json_file_exist_in_the_database() {
