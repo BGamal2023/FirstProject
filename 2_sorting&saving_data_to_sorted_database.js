@@ -12,7 +12,7 @@ import * as TI from "readline";
 //#endregion
 
 //#region internal imports
-import { arr_of_JAVAscript_objects_from_db, m_read_customer_data_from_databas } from "./1_read_data_from_database.js";
+import { arr_of_JAVAscript_objects_from_db, m_read_customer_data_from_databas } from "./1_reading_data_from_database.js";
 //#region
 
 //#region variables
@@ -61,7 +61,7 @@ export function m2_sort_the_given_customer_based_on_given_personal_attribute(cus
   }
 }
 export async function m3_save_the_data_of_given_customer_to_the_sorted_database(customer_job) {
-  let path_to_given_customer_file = path.join(the_Absolute_Path_Of_This_Folder, `../sorted_database/${customer_job}.json`);
+  let path_to_given_customer_file = path.join(the_Absolute_Path_Of_This_Folder, `./the_sorted_database/${customer_job}.json`);
 
   let JSON_arr_of_given_customers = JSON.stringify(arr_of_given_customers);
   await fsPromises.writeFile(path_to_given_customer_file, JSON_arr_of_given_customers, "utf-8");

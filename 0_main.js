@@ -18,8 +18,8 @@ import {
   arr_of_given_customers,
   m2_sort_the_given_customer_based_on_given_personal_attribute,
   m3_save_the_data_of_given_customer_to_the_sorted_database,
-} from "./2_sorting&saving_data_to_sorted_database";
-import { m_get_the_most_common_name_in_our_database } from "./3_getting_is_the_most_common_name";
+} from "./2_sorting&saving_data_to_sorted_database.js";
+import { m_get_the_most_common_name_in_our_database } from "./3_getting_the_most_common_name.js";
 //#endregion
 //#region required tasks
 const arr_List_OfThe_Question = [
@@ -44,11 +44,11 @@ const arr_List_OfThe_Question = [
 ];
 //#endregion
 //#region invoked functions
-// m_sort_our_customer_accourding_to_thier_personal_attributes("dentist", "IQ");
+m1_sort_our_customer_accourding_to_thier_personal_attributes("dentist", "IQ");
 //#endregion
 
 //#region main function
-async function m_sort_our_customer_accourding_to_thier_personal_attributes(customer_job, sort_by) {
+async function m1_sort_our_customer_accourding_to_thier_personal_attributes(customer_job, sort_by) {
   await m_read_customer_data_from_databas();
   m1_tell_me_how_many_of_given_customer_inside_database(customer_job);
   m2_sort_the_given_customer_based_on_given_personal_attribute(customer_job, sort_by);

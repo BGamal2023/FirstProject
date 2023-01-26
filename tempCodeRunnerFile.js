@@ -1,1 +1,1 @@
-)
+   console.log("the count = " + count);
