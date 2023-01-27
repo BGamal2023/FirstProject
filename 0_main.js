@@ -44,7 +44,7 @@ const arr_List_OfThe_Question = [
 ];
 //#endregion
 //#region invoked functions
-m1_sort_our_customer_accourding_to_thier_personal_attributes("dentist", "IQ");
+// m1_sort_our_customer_accourding_to_thier_personal_attributes("dentist", "IQ");
 //#endregion
 
 //#region main function

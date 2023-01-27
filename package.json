@@ -6,7 +6,7 @@
   "main": "./0_main.js",
   "scripts": {
     "start": "node ./the_code/00_main_file.js",
-    "init": "node ./checking_every_path_exists.mjs",
+    "check": "node ./checking_every_path_exists.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
