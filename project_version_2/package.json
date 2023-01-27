@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "first_git_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./0_main.js",
+  "scripts": {
+    "start": "node ./the_code/00_main_file.js",
+    "check": "node ./checking_every_path_exists.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

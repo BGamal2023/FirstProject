@@ -1,0 +1,7 @@
+{
+  "name": "adel_amr",
+  "job": "doctor",
+  "age": 46,
+  "IQ": 122,
+  "children": { "child_1": "samir", "child_2": "yaseen", "child_3": "taha" }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "zinab_nabil",
+  "job": "doctor",
+  "age": 32,
+  "IQ": 144,
+  "children": { "child_1": "malek", "child_2": "rania", "child_3": "sosan" }
+}

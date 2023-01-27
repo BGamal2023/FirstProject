@@ -1,0 +1,7 @@
+{
+        "name": "ahmed_gamal",
+        "job": "teacher",
+        "age": 33,
+        "IQ": 119,
+        "children": { "child_1": "samir", "child_2": "khadija", "child_3": "lila" }
+}

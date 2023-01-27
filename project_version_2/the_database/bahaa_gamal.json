@@ -1,0 +1,7 @@
+{
+        "name": "bahaa_gamal",
+        "job": "electrical engineer",
+        "age": 33,
+        "IQ": 50,
+        "children": { "child_1": "malek", "child_2": "khadija", "child_3": "now known yet" }
+}
