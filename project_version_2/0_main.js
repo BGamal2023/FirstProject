@@ -13,15 +13,8 @@ import * as TI from "readline";
 
 //#region internal imports
 import { m_read_customer_data_from_databas, arr_of_JAVAscript_objects_from_db } from "./1_reading_data_from_database.js";
-import {
-  m1_tell_me_how_many_customers_in_every_job,
-  arr_of_given_customers,
-  m2_sort_the_given_customer_based_on_given_personal_attribute,
-  m3_save_the_data_of_given_customer_to_the_sorted_database,
-} from "./2_sorting&saving_data_to_sorted_database.js";
-import { m_get_the_most_common_name_in_our_database } from "./3_getting_the_most_common_name.js";
-//#endregion
-//#region required tasks
+import { w_get_and_save_data_for_every_customer_job_family } from "./2_getting_and_saving_details_data_for_similar_job_customers.js";
+
 const arr_List_OfThe_Question = [
   "file of how many mechanical engineer and their names, (sorted according their IQ)",
   "file of how many doctor and their names, (sorted according their IQ)",
@@ -44,16 +37,23 @@ const arr_List_OfThe_Question = [
 ];
 //#endregion
 //#region invoked functions
-// m1_sort_our_customer_accourding_to_thier_personal_attributes("dentist", "IQ");
+await m1_sort_our_customer_accourding_to_thier_personal_attributes();
+
 //#endregion
 
 //#region main function
-async function m1_sort_our_customer_accourding_to_thier_personal_attributes(customer_job, sort_by) {
+async function m1_sort_our_customer_accourding_to_thier_personal_attributes() {
   await m_read_customer_data_from_databas();
-  m1_tell_me_how_many_customers_in_every_job(customer_job);
-  m2_sort_the_given_customer_based_on_given_personal_attribute(customer_job, sort_by);
-  await m3_save_the_data_of_given_customer_to_the_sorted_database(customer_job);
-  // m_get_the_most_common_name_in_our_database();
+  w_get_and_save_data_for_every_customer_job_family();
+  //w_tell_me_what_is_the_most_common_name();
+  //w_tell_me_what_is_the_most_child_name();
+  //w_tell_me_what_is_the_smartest_customer();
+  //w_tell_me_what_is_the_least_samrt_customer();
+  //w_get_file_of_each_customer_with_the_full_details();
+  //w_sort_this_file_base_on_their_age();
+  //w_save_it_to_the_sorted_database();
+  //w_sort_the_file_again_by_customer_ages();
+  //w_save_the_age_sorted_file_to_the_sorted_database();
 }
 
 //for test
