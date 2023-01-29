@@ -28,7 +28,6 @@ await m_read_customer_data_from_databas();
 // console.log(arr_of_jobs_list_of_the_customers);
 await w_get_and_save_data_for_every_customer_job_family();
 
-console.log("######i am here###########3");
 //#endregion
 
 //#region functions
