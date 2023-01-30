@@ -20,7 +20,8 @@ export let arr_of_JAVAscript_objects_from_db = [];
 //#endregion
 
 //#region invoked functions for test
-// m_read_customer_data_from_databas();
+// await m_read_customer_data_from_databas();
+// console.log(arr_of_JAVAscript_objects_from_db);
 //#endregion
 //#region main functions
 export async function m_read_customer_data_from_databas() {
