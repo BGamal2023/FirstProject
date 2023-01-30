@@ -56,28 +56,12 @@ async function m1_sort_our_customer_accourding_to_thier_personal_attributes() {
   w_sort_the_full_customers_based_on_thire_age();
   w_save_the_age_sorted_full_customer_file_to_the_sorted_database();
 
-  // console.log(arr_of_full_customers_detailes);
-  // w_get_and_save_data_for_every_customer_job_family();
-  // //w_tell_me_what_is_the_most_common_name();
-  // //w_tell_me_what_is_the_most_child_name();
-  // await m0_get_high_and_low_IQ_customer_and_save_the_result_to_the_sorted_datbase();
-
-  //w_sort_this_file_base_on_their_age();
-  //w_save_it_to_the_sorted_database();
   //w_sort_the_file_again_by_customer_ages();
-  //w_save_the_age_sorted_file_to_the_sorted_database();
+  //w_save_it_to_the_sorted_database();
+  // w_get_and_save_data_for_every_customer_job_family();
+  //w_tell_me_what_is_the_most_common_name();
+  //w_tell_me_what_is_the_most_child_name();
+  // m0_get_high_and_low_IQ_customer_and_save_the_result_to_the_sorted_datbase();
 }
-
-//for test
-// // async function m222_sort_our_customer_accourding_to_thier_personal_attributes(customer_job, sort_by) {
-//   await m_read_customer_data_from_databas();
-//   //   console.log(arr_of_JAVAscript_objects_from_db);
-//   m1_tell_me_how_many_given_customers_inside_database(customer_job);
-//   // console.log(arr_of_given_customers);
-//   m2_sort_the_given_customers_based_on_given_personal_attribute(customer_job, sort_by);
-//   // console.log("After sorting%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
-//   // console.log(arr_of_given_customers);
-//   await m3_save_the_array_of_given_customer_to_the_sorted_datbase(customer_job);
-// }
 
 //#endregion
