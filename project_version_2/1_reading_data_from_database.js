@@ -61,4 +61,5 @@ function s3_convert_json_objects_to_js_objects() {
   }
   return arr_of_JAVAscript_objects_from_db;
 }
+
 //#endregion

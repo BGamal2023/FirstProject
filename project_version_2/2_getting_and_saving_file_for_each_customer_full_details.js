@@ -28,4 +28,10 @@ export function w_get_file_of_each_customer_with_the_full_details() {
   arr_of_full_customers_detailes = [...arr_of_JAVAscript_objects_from_db];
 }
 
+export async function w_save_the_file_of_each_customer_with_full_details_to_the_sorted_database() {
+  let path_of_the_file = path.join(the_Absolute_Path_Of_This_Folder, "./the_sorted_database/full customers detailes.json");
+  let Json_array = JSON.stringify(arr_of_full_customers_detailes);
+  await fsPromises.writeFile(path_of_the_file, Json_array, "utf-8");
+}
+
 //#endregion

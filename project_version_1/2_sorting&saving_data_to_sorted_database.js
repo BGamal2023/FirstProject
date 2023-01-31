@@ -22,12 +22,12 @@ export let arr_of_given_customers = [];
 //#endregion
 
 //#region invoked function
-await m_read_customer_data_from_databas();
-await m1_tell_me_how_many_of_given_customer_inside_database("mechanical engineer");
-m2_sort_the_given_customer_based_on_given_personal_attribute("mechanical engineer", "IQ");
-console.log(arr_of_given_customers);
-await m3_save_the_data_of_given_customer_to_the_sorted_database("mechanical engineer");
+// await m_read_customer_data_from_databas();
+// await m1_tell_me_how_many_of_given_customer_inside_database("mechanical engineer");
+// m2_sort_the_given_customer_based_on_given_personal_attribute("mechanical engineer", "IQ");
 // console.log(arr_of_given_customers);
+// await m3_save_the_data_of_given_customer_to_the_sorted_database("mechanical engineer");
+// // console.log(arr_of_given_customers);
 
 //#endregion
 //#region functions

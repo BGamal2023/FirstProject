@@ -21,8 +21,8 @@ let the_least_smartest_customer = {};
 //#endregion
 //#region invoked function
 
-await m1_get_and_print_the_most_and_least_smart_customer_in_our_database();
-m2_save_the_data_of_most_and_least_smart_cuatomer_to_the_sorted_database();
+// await m1_get_and_print_the_most_and_least_smart_customer_in_our_database();
+// m2_save_the_data_of_most_and_least_smart_cuatomer_to_the_sorted_database();
 
 //#endregion
 

@@ -20,14 +20,14 @@ let arr_of_sorted_customers_based_on_thier_Ages = [];
 //#endregion
 
 //#region invoked functions
-await w_get_and_print_full_details_for_every_customer();
-w_sort_our_customers_based_on_thier_IQ();
-// console.log("%%%%%%%%%%%%after sorting_1%%%%%%%%%%%%%%%%%%");
-// console.log(arr_of_sorted_customers_based_on_thier_IQ);
-console.log("%%%%%%%%%%%%after sorting_2%%%%%%%%%%%%%%%%%%");
-// console.log(arr_of_sorted_customers_based_on_thier_Ages);
-await save_our_IQ_sorted_customers_to_the_sorted_database();
-await w_save_our_AGE_sorted_customers_to_the_sorted_database();
+// await w_get_and_print_full_details_for_every_customer();
+// w_sort_our_customers_based_on_thier_IQ();
+// // console.log("%%%%%%%%%%%%after sorting_1%%%%%%%%%%%%%%%%%%");
+// // console.log(arr_of_sorted_customers_based_on_thier_IQ);
+// console.log("%%%%%%%%%%%%after sorting_2%%%%%%%%%%%%%%%%%%");
+// // console.log(arr_of_sorted_customers_based_on_thier_Ages);
+// await save_our_IQ_sorted_customers_to_the_sorted_database();
+// await w_save_our_AGE_sorted_customers_to_the_sorted_database();
 
 //#endregion
 

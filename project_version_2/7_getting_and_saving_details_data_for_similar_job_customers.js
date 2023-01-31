@@ -22,11 +22,11 @@ let arr_of_jobs_list_of_the_customers = [];
 //#endregion
 
 //#region Invoked functions
-await m_read_customer_data_from_databas();
-// // console.log(arr_of_JAVAscript_objects_from_db);
-// s_get_arr_contains_the_names_of_jobs_of_our_customers();
-// console.log(arr_of_jobs_list_of_the_customers);
-await w_get_and_save_data_for_every_customer_job_family();
+// await m_read_customer_data_from_databas();
+// // // console.log(arr_of_JAVAscript_objects_from_db);
+// // s_get_arr_contains_the_names_of_jobs_of_our_customers();
+// // console.log(arr_of_jobs_list_of_the_customers);
+// await w_get_and_save_data_for_every_customer_job_family();
 
 //#endregion
 
