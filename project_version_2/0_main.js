@@ -24,6 +24,7 @@ import { w_sort_the_full_customers_based_on_thire_age } from "./3_sorting_the_cu
 import { w_save_the_age_sorted_full_customer_file_to_the_sorted_database } from "./4_saving_the_Age_sorted_file_to_the_sorted_database.js";
 import { w_sort_the_full_customers_based_on_thire_IQ } from "./5_sorting_the_customers_based_on_thier_IQ.js";
 import { w_save_the_sorted_customer_by_IQ_to_the_database } from "./6_saving_the_IQ_sorted_file_to_the_sorted_databas.js";
+import { w_get_the_most_common_name } from "./8_getting_the_most_common_name.js";
 
 const arr_List_OfThe_Question = [
   "file of how many mechanical engineer and their names, (sorted according their IQ)",
@@ -51,21 +52,18 @@ await m1_sort_our_customer_accourding_to_thier_personal_attributes();
 console.log(arr_of_full_customers_detailes);
 console.log("######i am here###########3");
 console.log("main file");
-console.log("As i expected , but by this console i completed my day task ,thank you awaaad");
-//#endregion
 
 //#region main function
 async function m1_sort_our_customer_accourding_to_thier_personal_attributes() {
   await m_read_customer_data_from_databas();
   w_get_file_of_each_customer_with_the_full_details();
   w_save_the_file_of_each_customer_with_full_details_to_the_sorted_database();
-
-  // w_sort_the_full_customers_based_on_thire_age();
-  // w_save_the_age_sorted_full_customer_file_to_the_sorted_database();
-  // w_sort_the_full_customers_based_on_thire_IQ();
-  // w_save_the_sorted_customer_by_IQ_to_the_database();
-  // //w_sort_the_file_again_by_customer_iq();
-  //w_save_it_to_the_sorted_database();
+  w_sort_the_full_customers_based_on_thire_age();
+  w_save_the_age_sorted_full_customer_file_to_the_sorted_database();
+  w_sort_the_full_customers_based_on_thire_IQ();
+  w_save_the_sorted_customer_by_IQ_to_the_database();
+  w_get_the_most_common_name();
+  // w_sort_the_customer_based_on_thier_jobs();
   // w_get_and_save_data_for_every_customer_job_family();
   //w_tell_me_what_is_the_most_common_name();
   //w_tell_me_what_is_the_most_child_name();
