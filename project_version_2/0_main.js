@@ -51,6 +51,7 @@ await m1_sort_our_customer_accourding_to_thier_personal_attributes();
 console.log(arr_of_full_customers_detailes);
 console.log("######i am here###########3");
 console.log("main file");
+console.log("As i expected , but by this console i completed my day task ,thank you awaaad");
 //#endregion
 
 //#region main function
