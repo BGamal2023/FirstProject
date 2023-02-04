@@ -24,7 +24,7 @@ import { w_sort_the_full_customers_based_on_thire_age } from "./3_sorting_the_cu
 import { w_save_the_age_sorted_full_customer_file_to_the_sorted_database } from "./4_saving_the_Age_sorted_file_to_the_sorted_database.js";
 import { w_sort_the_full_customers_based_on_thire_IQ } from "./5_sorting_the_customers_based_on_thier_IQ.js";
 import { w_save_the_sorted_customer_by_IQ_to_the_database } from "./6_saving_the_IQ_sorted_file_to_the_sorted_databas.js";
-import { w_get_the_most_common_name } from "./8_getting_the_most_common_name.js";
+import { w_get_the_most_common_name, w_sort_the_customer_based_on_thier_jobs } from "./8_getting_the_most_common_name.js";
 import {
   arr_of_childs_objects,
   arr_of_extracted_childs_names,
